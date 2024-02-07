@@ -1,0 +1,75 @@
+body {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+  height: 95vh;
+  position: relative;
+}
+.content {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 150px;
+  transform: translateX(-50%);
+}
+.content h1 {
+  font-size: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 0 15px;
+}
+.content p {
+  font-size: 30px;
+  font-family: cursive;
+}
+.content button {
+  padding: 15px 30px;
+  font-size: 23px;
+  background-color: rgb(180, 114, 16);
+  border: 0;
+  transition: 0.3s;
+  color: white;
+  border-radius: 15px;
+}
+.content button:hover {
+  color: rgb(4, 9, 4);
+}
+.cartona {
+  font-size: 30px;
+  padding: 20px 15px;
+}
+.cartona #quote {
+  margin: 15px 0;
+  color: rgb(124, 7, 56);
+}
+.cartona #author {
+  color: rgb(87, 0, 100);
+}
+
+
+@media (max-width: 850px){
+  img{
+    height: 650px;
+  }
+  .content h1{
+    font-size: 30px;
+  }
+  .content p {
+    font-size: 22px;
+  }
+  .content button{
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+  .cartona {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px){
+  .content{
+    top: 100px;
+  }
+}
