@@ -1,2 +1,1 @@
-# -quote-js
- quote js
+https://mohamedelrewiny.github.io/-quote-js/
